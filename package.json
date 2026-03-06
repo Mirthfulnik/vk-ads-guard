@@ -1,13 +1,8 @@
 {
   "name": "vk-ads-guard",
   "version": "2.4.0",
-  "description": "VK Ads Guard — серверная часть",
-  "main": "check.js",
   "type": "module",
   "scripts": {
     "start": "node check.js"
-  },
-  "dependencies": {
-    "node-fetch": "^3.3.2"
   }
 }
