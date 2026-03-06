@@ -1,7 +1,7 @@
 // check.js — VK Ads Guard v2.4 (GitHub Actions)
 // Читает настройки из Gist, проверяет баннеры VK Ads, пишет лог обратно в Gist.
 
-import fetch from "node-fetch";
+// fetch встроен в Node.js 18+
 
 const VK_CLIENT_ID     = process.env.VK_CLIENT_ID;
 const VK_CLIENT_SECRET = process.env.VK_CLIENT_SECRET;
